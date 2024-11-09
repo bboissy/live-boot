@@ -33,6 +33,7 @@ Netbase ()
 cat > "${IFFILE}" << EOF
 auto lo
 iface lo inet loopback
+source /etc/network/interfaces.d/*
 
 EOF
 
